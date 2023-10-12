@@ -1,0 +1,195 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* header section start */
+header{
+      width: 100%;
+      height: 45px;
+      background-color: rgb(102, 102, 228);
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 100px;
+      align-items: center;
+}
+header h1,h2{
+    color: #fff;
+}
+header h1 span{
+    font-size: 15px;
+}
+header h2 span{
+    color: rgb(107, 221, 196);
+}
+/* header section end */
+
+/* banner header section start */
+.banner{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    align-items: center;
+    color: #fff;
+    background: url(../img/industrial1.jpg);
+}
+/* main section start */
+main h2{
+    font-weight:lighter;
+}
+main h1{
+    font-size: 30px;
+}
+/* /main section end */
+
+/* aside section start */
+.banner aside{
+    padding: 20px;
+    border-radius: 7px;
+    text-align: center;
+    background-color: rgb(102, 102, 228);;
+}
+.banner aside input[type],
+.banner aside textarea,
+.banner aside button{
+    width: 100%;
+    margin: 7px;
+    height: 50px;
+    
+}
+/* /aside section end */
+
+/* /banner header section end */
+
+/* image section start */
+.image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+.image div h3{
+    color:blue;
+}
+.image div img{
+    width: 330px;
+    height: 330px;
+}
+/* image section end */
+
+/* about section start */
+
+.about{
+    width: 100%;
+    height: auto;
+    background-color: rgb(102, 102, 228);
+    text-align: center;
+    padding: 30px 100px;
+}
+.about span{
+    color: #fff;
+    font-size: 25px;
+}
+.about p{
+    color:#fff;
+}
+.about #button{
+    color: #fff;
+    background-color:rgb(102, 102, 228);
+    width: 300px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-color:#fff;
+}
+
+/* /about section end */
+
+/* details section start */
+
+.details{
+    width: 100%;
+    height: auto;
+    padding: 20px 100px;
+    text-align: center;
+    
+}
+
+
+/* details section end */
+
+/* footer section start */
+
+footer{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(102, 102, 228);
+    padding-top: 12px;
+}
+footer h4{
+    color: #fff;
+}
+
+/* footer section end */
+
+/* media query section start */
+
+@media screen and (max-width:992px){
+    header{
+        padding: 0px;
+    }
+    .banner{
+        padding:0px 20px;
+    }
+    .image{
+        padding: 0px;
+    }
+    .details{
+        padding: 0px;
+    }
+    section table img{
+        width: 400px;
+        height: 300px;
+    }
+
+
+}
+@media  screen and (max-width:768px) {
+    header{
+        height: auto;
+    }
+   .image{
+    width: 100px;
+    padding: 0px 0px;
+    justify-content: left;
+   }
+    .image div img{
+        width: 200px;
+        height: 200px;
+        
+        
+    }
+    .image div p{
+       
+        font-size: 15px;
+        width: 30px;
+    }
+
+    
+}
+@media screen and (max-width:576px) {
+    .image{
+        flex-direction: column;
+        padding-left: 200px;
+    }
+    table tr td{
+        flex-direction: column;
+    }
+}
+
+/* media query section end */
